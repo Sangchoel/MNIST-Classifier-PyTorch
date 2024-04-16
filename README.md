@@ -26,14 +26,13 @@ python
 Copy code
 from dataset import MnistDataset
 from model import Classifier
-
-# 데이터셋 로드
+데이터셋 로드
 dataset = MnistDataset('path_to_mnist_train.csv')
-
-# 모델 생성 및 훈련
+모델 생성 및 훈련
 model = Classifier()
 model.train(dataset)
-기능
+
+# 기능
 MNIST 데이터셋을 사용하여 학습 및 테스트.
 모델의 진행 상황 시각화.
 테스트 데이터셋에서 모델 성능 평가.
