@@ -9,7 +9,6 @@ PyTorch MNIST Classifier
 설치 절차:
 bash
 Copy code
-git clone https://github.com/yourusername/mnist-classifier-pytorch.git
 cd mnist-classifier-pytorch
 pip install -r requirements.txt
 # 사용 방법
